@@ -100,6 +100,7 @@ const App = () => {
           renderItem={renderItem}
           onEndReached={handleLoadMore}
           onEndReachedThreshold={0.1}
+          style={styles.flatList}
         />
       )}
     </View>
@@ -110,34 +111,35 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#E0E0E0', // Grey
   },
   header: {
     fontSize: 20,
     fontWeight: 'bold',
     marginBottom: 10,
     textAlign: 'center',
+    color: '#333', // DarkGrey
   },
   button: {
-    backgroundColor: '#007BFF',
+    backgroundColor: '#1976D2', // RoyalBlue
     borderRadius: 8,
     padding: 15,
     alignItems: 'center',
     marginBottom: 20,
   },
   disabledButton: {
-    backgroundColor: '#B0C4DE', // LightSteelBlue
+    backgroundColor: '#78909C', // BlueGrey
   },
   clearButton: {
-    backgroundColor: '#DC3545', // Crimson
+    backgroundColor: '#D32F2F', // DarkRed
   },
   buttonText: {
-    color: '#fff',
+    color: '#FFF',
     fontSize: 16,
     fontWeight: 'bold',
   },
   listItem: {
-    backgroundColor: '#fff',
+    backgroundColor: '#FFF',
     borderRadius: 8,
     padding: 16,
     marginBottom: 20,
@@ -158,18 +160,13 @@ const styles = StyleSheet.create({
   },
   activityIndicator: {
     marginTop: 20,
+    alignSelf: 'center',
+  },
+  flatList: {
+    flex: 1,
   },
 });
 
 export default App;
-
-
-
-
-
-
-
-
-
 
 
