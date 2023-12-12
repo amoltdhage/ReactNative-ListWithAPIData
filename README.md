@@ -3,12 +3,12 @@
 
 ListWithAPIData is a robust React Native project that exemplifies a comprehensive implementation of fetching and displaying data from a remote API. It provides developers with a solid foundation for seamlessly integrating API data into their React Native applications. The project features a clean and user-friendly list format, complete with:
 
-## UI Styling: Ensuring a visually appealing and intuitive user experience.
-## Data Fetching Controls: Implementing buttons for fetching, toggling, and clearing fetched data.
-## Pagination: Efficiently loading data in chunks for improved performance.
-## Dynamic Button States: Ensuring buttons react to the ongoing data fetching process.
-## Loading Indicators: Displaying indicators to inform users about the loading status.
-## Thoughtful User Experience: Enhancing the overall usability of the application.
+UI Styling: Ensuring a visually appealing and intuitive user experience.
+Data Fetching Controls: Implementing buttons for fetching, toggling, and clearing fetched data.
+Pagination: Efficiently loading data in chunks for improved performance.
+Dynamic Button States: Ensuring buttons react to the ongoing data fetching process.
+Loading Indicators: Displaying indicators to inform users about the loading status.
+Thoughtful User Experience: Enhancing the overall usability of the application.
 
 ## Project Structure
 ListWithAPIData/  
@@ -28,12 +28,12 @@ Defines the structure of an individual item in the list, displaying the post ID,
 The main entry point of the application. Renders the ListWithData component to showcase the seamless integration of API data in a list format.
 
 ## Features
-## API Integration: Fetch and display data from the JSONPlaceholder API.
-## List Rendering: Display fetched data in a scrollable list.
-## Buttons for Data Control: Implement buttons for fetching, toggling, and clearing fetched data.
-## Pagination: Implement pagination to load data in chunks.
-## UI Styling: Apply proper UI styling for a visually appealing user experience.
-## Dynamic User Experience: Enhance the overall usability with thoughtful UI elements.
+API Integration: Fetch and display data from the JSONPlaceholder API.
+List Rendering: Display fetched data in a scrollable list.
+Buttons for Data Control: Implement buttons for fetching, toggling, and clearing fetched data.
+Pagination: Implement pagination to load data in chunks.
+UI Styling: Apply proper UI styling for a visually appealing user experience.
+Dynamic User Experience: Enhance the overall usability with thoughtful UI elements.
 
 
 
