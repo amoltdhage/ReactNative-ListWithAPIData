@@ -12,10 +12,10 @@ Thoughtful User Experience: Enhancing the overall usability of the application.
 Project Structure
 
 ListWithAPIData/
-├─ components/
-│   ├─ ListWithData.tsx
-│   └─ PostItem.tsx
-└─ App.tsx
+|-- components/
+| |-- ListWithData.tsx
+| |-- PostItem.tsx
+|-- App.tsx
 
 
 
