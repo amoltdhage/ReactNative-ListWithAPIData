@@ -11,12 +11,14 @@ Loading Indicators: Displaying indicators to inform users about the loading stat
 Thoughtful User Experience: Enhancing the overall usability of the application.
 Project Structure
 
-Copy code
 ListWithAPIData/
 ├─ components/
 │   ├─ ListWithData.tsx
 │   └─ PostItem.tsx
 └─ App.tsx
+
+
+
 ListWithData.tsx
 Responsible for fetching and displaying data from the API. Utilizes the PostItem component to render individual items in the list.
 
